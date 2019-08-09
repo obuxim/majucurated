@@ -11,6 +11,10 @@ header { top: 0; left: 0; right: 0; z-index: 999; }
 @media only screen and (max-width: 768px) {
     .navbar-brand img { max-height: 40px; }
 }
+#menu img { max-height: 40px; }
+.menu-header { font-weight: bold; font-size: 18px; color: #3DDBCD !important; }
+.menu-item { font-size: 16px; }
+.menu-header, .menu-item { padding: 2rem; }
 /* navToggle Curser Change */
 #navToggle { cursor: pointer; }
 
