@@ -28,9 +28,9 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <header class="d-flex align-items-center justify-content-around position-absolute bg-transparent p-2 text-light text-uppercase border-bottom border-white">
+    <header class="px-18 d-none d-md-flex align-items-center justify-content-around position-absolute bg-transparent p-2 text-light text-uppercase border-bottom border-white">
         <a href="index.php" class="navbar-brand"><img src="img/logo-light.png" alt="Maju Curated" /></a>
-        <ul class="nav">
+        <ul class="nav d-none d-md-flex">
             <li class="nav-item"><a class="nav-link text-light" href="index.php">home</a></li>
             <li class="nav-item"><a class="nav-link text-light" href="photography.php">photography</a></li>
             <li class="nav-item"><a class="nav-link text-light" href="videography.php">videography</a></li>
@@ -39,12 +39,24 @@
             <li class="nav-item"><a class="nav-link text-light" href="about.php">about us</a></li>
             <li class="nav-item"><a class="nav-link text-light" href="blog.php">blog</a></li>
         </ul>
-        <a onclick=toggleNav() id="navToggle"><img src="img/menu-light.png" alt="Menu" /></a>
-        <div id="menu" class="fixed-top w-100 h-100 bg-white text-dark d-none flex-column">
+        <a onclick=toggleNav(1) id="navToggle"><img src="img/menu-light.png" alt="Menu" /></a>
+        <div id="menu-1" class="fixed-top w-100 h-100 bg-white text-dark d-none flex-column">
             <div class="container">
                 <div class="d-flex align-items-center justify-content-between p-2">
                     <a href="index.php" class="navbar-brand"><img src="img/logo-dark.png" alt="Maju Curated" /></a>
-                    <a onclick=toggleNav() id="navToggle"><i class="fas fa-times fa-2x" ></i></a>
+                    <a onclick=toggleNav(1) id="navToggle"><i class="fas fa-times fa-2x" ></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header class="d-flex d-md-none align-items-center justify-content-between container sticky-top bg-white pl-2 pr-3 text-dark text-uppercase">
+        <a href="index.php" class="navbar-brand"><img src="img/logo-dark.png" alt="Maju Curated" /></a>
+        <a onclick=toggleNav(2) id="navToggle"><img src="img/menu-dark.png" alt="Menu" /></a>
+        <div id="menu-2" class="fixed-top w-100 h-100 bg-white text-dark d-none flex-column">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between p-2">
+                    <a href="index.php" class="navbar-brand"><img src="img/logo-dark.png" alt="Maju Curated" /></a>
+                    <a onclick=toggleNav(2) id="navToggle"><i class="fas fa-times fa-2x" ></i></a>
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 let currentMenuState = 0
-const toggleNav = function(){
-    const menuElement = document.getElementById("menu")
+const toggleNav = function(position){
+    const menuElement = document.getElementById("menu-" + position)
     if (currentMenuState == 0) {
         menuElement.classList.remove("d-none")
         menuElement.classList.add("d-flex")

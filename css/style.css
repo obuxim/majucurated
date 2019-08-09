@@ -1,17 +1,135 @@
 /* Setting font to Lato for everything */
 * { font-family: Lato, sans-serif; }
+.px-18 { font-size: 18px; }
+.px-16 { font-size: 16px; }
+.px-14 { font-size: 14px; }
+.px-12 { font-size: 12px; }
 /* Setting the header to stay at top */
 header { top: 0; left: 0; right: 0; z-index: 999; }
 /* Fixing height of header logo */
 .navbar-brand img { max-height: 70px; }
+@media only screen and (max-width: 768px) {
+    .navbar-brand img { max-height: 40px; }
+}
 /* navToggle Curser Change */
 #navToggle { cursor: pointer; }
-/* Setting Maximum Height of Slider to 100% */
-#home-slider { max-height: 100vh; overflow: hidden; }
+
+/* Styling action button */
+.action-button { background: #3ddbcd; }
+
+/* Configuring cards for hovering. */
+.card { box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s; }
+.carousel-inner { overflow: unset; }
+
+.card:hover { box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); }
+
+/* Footer Starts */
+
+ /* footer { background: #FAFAFA; }
+footer img { max-height: 30px; }
+footer input { background: #ECECEC !important; } */
+
+footer {
+	background: #FAFAFA;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px 0;
+	color: #485262;
+	text-transform: uppercase;
+	font-family: Lato, sans-serif;
+	font-weight: regular;
+	font-size: 14px;
+}
+footer a{
+	text-decoration: none;
+	color: #485262;
+}
+footer a img {
+	max-width: 32px;
+	height: auto;
+}
+#footer-container{
+	display: flex;
+	width: 70vw;
+	justify-content: space-between;
+}
+#footer-left, #footer-right { width: 35vw; }
+#footer-left {
+	display: flex;
+	flex-direction: column;
+}
+#footer-left div { padding-bottom: 30px; }
+#footer-left div:last-of-type {
+	padding-bottom: 0;
+	display: flex;
+	align-items: center;
+}
+#footer-left div:last-of-type a { padding-left: 20px; }
+#footer-right {display: flex;align-items: center;}
+#footer-right form {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+#footer-right form div { margin: 32px 0; display: flex; }
+#footer-right input[type=text] {
+	padding: 20px;
+	background: #ECECEC;
+	border-radius: 10px 0 0 10px;
+	width: 80%;
+	border-color: rgba(0,0,0,0);
+	font-size: 14px;
+	outline:none;
+}
+#footer-right button {
+	margin: 0;
+    padding: 20px 30px;
+    background: #3DDBCD;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    font-size: 14px;
+    text-transform: uppercase;
+    left: -5px;
+}
+#copyright {
+	display: flex;
+	padding-top: 100px;
+	justify-content: center;
+	align-items: center;
+}
+@media screen and (max-width: 1024px) {
+    #footer-container {
+		flex-direction: column-reverse;
+		width: 90vw;
+	}
+	#footer-left, #footer-right { width: 100%; }
+	#footer-left { padding: 0 10px; }
+	#footer-right label { padding: 0 10px; }
+}
+
+/* Footer Ends */
 
 /* Homepage Starts */
 
+/* Setting Maximum Height of Slider to 100% */
+#home-slider { max-height: 100vh; overflow: hidden; }
+
 /* Adding height to ribbon */
 #ribbon { height: 150px; }
+
+/* Social Image Size */
+#home-social img { max-height: 35px; }
+
+/* Setting Up Instagram Slider Control */
+.home-instagram-mobile-control { width: 40px; height: 40px; opacity: 1 !important; }
+.carousel-control-prev .home-instagram-mobile-control { left: -10px; opacity: 1 !important;  }
+.carousel-control-next .home-instagram-mobile-control { right: -10px; opacity: 1 !important;  }
+
+/* Start Project Block */
+#start-project { background: #F0F1F5; }
 
 /* Homepage Ends */
