@@ -1,0 +1,4 @@
+/* Fixing height of header logo */
+.navbar-brand img { max-height: 70px; }
+/* navToggle Curser Change */
+#navToggle { cursor: pointer; }
