@@ -10,6 +10,14 @@
     <meta name="keywords" content="">
     <meta name="author" content="Zubair Hasan">
     <meta copyright="Octoriz Private Limited">
+    <!-- Including Favicons -->
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#9f00a7">
+    <meta name="theme-color" content="#ffffff">
     <!-- Including Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Including Google Font (Lato) -->
@@ -20,7 +28,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <header class="d-flex align-items-center justify-content-around fixed-top bg-transparent p-2 text-light text-uppercase border-bottom border-white">
+    <header class="d-flex align-items-center justify-content-around position-absolute bg-transparent p-2 text-light text-uppercase border-bottom border-white">
         <a href="index.php" class="navbar-brand"><img src="img/logo-light.png" alt="Maju Curated" /></a>
         <ul class="nav">
             <li class="nav-item"><a class="nav-link text-light" href="index.php">home</a></li>
@@ -41,7 +49,7 @@
             </div>
         </div>
     </header>
-    <section id="home-slider" class="carousel slide" data-ride="carousel">
+    <section id="home-slider" class="carousel slide align-itmes-center d-flex" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#home-slider" data-slide-to="0" class="active"></li>
             <li data-target="#home-slider" data-slide-to="1"></li>

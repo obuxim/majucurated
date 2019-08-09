@@ -1,4 +1,17 @@
+/* Setting font to Lato for everything */
+* { font-family: Lato, sans-serif; }
+/* Setting the header to stay at top */
+header { top: 0; left: 0; right: 0; z-index: 999; }
 /* Fixing height of header logo */
 .navbar-brand img { max-height: 70px; }
 /* navToggle Curser Change */
 #navToggle { cursor: pointer; }
+/* Setting Maximum Height of Slider to 100% */
+#home-slider { max-height: 100vh; overflow: hidden; }
+
+/* Homepage Starts */
+
+/* Adding height to ribbon */
+#ribbon { height: 150px; }
+
+/* Homepage Ends */
