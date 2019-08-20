@@ -38,6 +38,7 @@
             <li class="nav-item"><a class="nav-link text-light" href="shop.php">shop</a></li>
             <li class="nav-item"><a class="nav-link text-light" href="about.php">about us</a></li>
             <li class="nav-item"><a class="nav-link text-light" href="blog.php">blog</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="blog-single.php">blog single</a></li>
         </ul>
         <a onclick=toggleNav() id="navToggle"><img src="img/menu-light.png" alt="Menu" /></a>
     </header>

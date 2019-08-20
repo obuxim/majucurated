@@ -29,7 +29,7 @@
 </head>
 <body>
     <header class="card bg-white pl-2 pr-3 text-dark text-uppercase px-18">
-        <div class="container d-flex align-items-center justify-content-between">
+        <div class="container-fluid d-flex align-items-center justify-content-around">
             <a href="index.php" class="navbar-brand"><img src="img/logo-dark.png" alt="Maju Curated" /></a>
             <ul class="nav d-none d-md-flex">
                 <li class="nav-item"><a class="nav-link text-dark" href="index.php">home</a></li>
@@ -39,6 +39,7 @@
                 <li class="nav-item"><a class="nav-link text-dark" href="shop.php">shop</a></li>
                 <li class="nav-item"><a class="nav-link text-dark" href="about.php">about us</a></li>
                 <li class="nav-item"><a class="nav-link text-dark" href="blog.php">blog</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="blog-single.php">blog single</a></li>
             </ul>
             <a onclick=toggleNav() id="navToggle"><img src="img/menu-dark.png" alt="Menu" /></a>
         </div>
