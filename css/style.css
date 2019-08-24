@@ -36,10 +36,6 @@ header { top: 0; left: 0; right: 0; z-index: 999; }
 
 /* Footer Starts */
 
- /* footer { background: #FAFAFA; }
-footer img { max-height: 30px; }
-footer input { background: #ECECEC !important; } */
-
 footer {
 	background: #FAFAFA;
 	display: flex;
@@ -144,3 +140,24 @@ footer a img {
 #start-project { background: #F0F1F5; }
 
 /* Homepage Ends */
+
+/*Photography Page Starts*/
+
+.photography-slider-overlay { background: rgba(0,0,0,0.6); }
+.photography-slider-overlay-inner { opacity: 0.0; }
+.photography-slider-overlay-active {
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.66) 16.66%, rgba(0,0,0,0.33) 33.33%, rgba(0,0,0,0) 50%);
+}
+.carousel-overlay {
+	z-index: 9;
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.66) 8.33%, rgba(0,0,0,0.33) 16.66%, rgba(0,0,0,0) 25%);
+}
+.carousel-item img { object-fit: cover; }
+#photography-carousel .carousel-indicators li {
+	width: 7px; height: 7px; border-radius: 50%; background: white; border: 2px solid white; opacity: 1;
+}
+#photography-carousel .carousel-indicators .active { background: rgba(0,0,0,0) }
+.photography-carousel-footer { z-index: 999; bottom: 0; }
+#photography-carousel .carousel-indicators { bottom: auto; }
+
+/*Photography Page Ends*/
