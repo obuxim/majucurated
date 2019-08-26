@@ -7,6 +7,7 @@ html, body {
 .px-16 { font-size: 16px; }
 .px-14 { font-size: 14px; }
 .px-12 { font-size: 12px; }
+a:visited { color: inherit }
 /*Hide Scroll Bar*/
 ::-webkit-scrollbar {
 	display: none;
@@ -21,7 +22,12 @@ header { top: 0; left: 0; right: 0; z-index: 999; }
 #menu img { max-height: 40px; }
 .menu-header { font-weight: bold; font-size: 18px; color: #3DDBCD !important; }
 .menu-item { font-size: 16px; }
-.menu-header, .menu-item { padding: 2rem; }
+@media screen and (max-width: 768px){
+	.menu-header { padding: 0.4rem; }
+}
+@media screen and (min-width: 769px){
+	.menu-header, .menu-item { padding: 2rem!important; }
+}
 /* navToggle Curser Change */
 #navToggle { cursor: pointer; }
 
@@ -170,5 +176,7 @@ footer a img {
 #photography-categories + .photography-slider-menu-inner { margin-right: 2px; }
 #photography-galleries + .photography-slider-menu-inner { margin-left: 2px; }
 .photography-slider-menu-inner { background: rgba(0,0,0,0.3); }
+#photography-reversed { background: url("../img/photography/pattern.jpg");}
+
 
 /*Photography Page Ends*/

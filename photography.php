@@ -166,8 +166,47 @@
         </div>
     </div>
 </section>
-<section id="photography-block" class="py-5">
-
+<section id="call-to-action" class="py-2 bg-dark text-uppercase">
+    <a href="#" class="d-flex flex-column align-items-center text-light">
+        <span>view services</span>
+        <i class="fas fa-chevron-down"></i>
+    </a>
+</section>
+<section id="photography-reversed" class="py-5">
+    <div class="container">
+        <div class="row py-3 align-items-center">
+            <div class="col-12 col-md-6">
+                <img src="img/photography/photo01.png" alt="" class="img-fluid"/>
+            </div>
+            <div class="col-12 col-md-4 h-100 text-light">
+                <h2 class="text-uppercase my-4">photographer</h2>
+                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At culpa distinctio dolor eligendi eum, hic, id minima molestiae necessitatibus nihil obcaecati omnis, perferendis placeat recusandae reiciendis rerum vitae. Sapiente, tempora.</p>
+            </div>
+        </div>
+        <div class="row py-3 align-items-center">
+            <div class="col-12 order-1 order-md-0 col-md-4 offset-md-2 h-100 text-light d-flex flex-column align-items-md-end">
+                <h2 class="text-uppercase text-left text-md-right my-4">creative director</h2>
+                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At culpa distinctio dolor eligendi eum, hic, id minima molestiae necessitatibus nihil obcaecati omnis, perferendis placeat recusandae reiciendis rerum vitae. Sapiente, tempora.</p>
+            </div>
+            <div class="col-12 col-md-6 order-0 order-md-1">
+                <img src="img/photography/photo02.png" alt="" class="img-fluid"/>
+            </div>
+        </div>
+        <div class="row py-3 align-items-center">
+            <div class="col-12 col-md-6">
+                <img src="img/photography/photo03.png" alt="" class="img-fluid"/>
+            </div>
+            <div class="col-12 col-md-4 h-100 text-light">
+                <h2 class="text-uppercase my-4">styling</h2>
+                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At culpa distinctio dolor eligendi eum, hic, id minima molestiae necessitatibus nihil obcaecati omnis, perferendis placeat recusandae reiciendis rerum vitae. Sapiente, tempora.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="start-project" class="text-center p-5 d-flex d-md-none flex-column align-items-center justify-content-center">
+    <span class="text-uppercase font-weight-bold mb-3">start your new project</span>
+    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <a class="btn action-button text-uppercase rounded-lg text-light px-5">send</a>
 </section>
 
 <?php include "footer.php"; ?>

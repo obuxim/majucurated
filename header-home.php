@@ -42,7 +42,7 @@
         </ul>
         <a onclick=toggleNav() id="navToggle"><img src="img/menu-light.png" alt="Menu" /></a>
     </header>
-    <div id="menu" class="fixed-top p-5 w-100 h-100 bg-white text-dark d-none flex-column justify-content-between">
+    <div id="menu" class="fixed-top overflow-auto p-md-5 w-100 h-100 bg-white text-dark d-none flex-column justify-content-between">
         <div class="container-fluid">
             <div class="d-flex align-items-center justify-content-between p-2">
                 <a href="index.php" class="navbar-brand"><img src="img/logo-dark.png" alt="Maju Curated" /></a>
@@ -52,41 +52,41 @@
         <div>
             <div class="container">
                 <div class="row">
-                    <div class="col-3 d-flex justify-content-center">
+                    <div class="col-12 col-md-3 d-flex justify-content-md-center">
                         <div class="d-flex flex-column">
-                            <a class="menu-header text-uppercase">home</a>
+                            <a href="index.php" class="menu-header text-uppercase">home</a>
                         </div>
                     </div>
-                    <div class="col-3 d-flex justify-content-center">
+                    <div class="col-12 col-md-3 d-flex justify-content-md-center">
                         <div class="d-flex flex-column">
                             <a class="menu-header text-uppercase">production</a>
-                            <a class="menu-item text-capitalize">photography</a>
-                            <a class="menu-item text-capitalize">videography</a>
+                            <a href="photography.php" class="menu-item pl-4 text-capitalize">photography</a>
+                            <a href="videography.php" class="menu-item pl-4 text-capitalize">videography</a>
                         </div>
                     </div>
-                    <div class="col-3 d-flex justify-content-center">
+                    <div class="col-12 col-md-3 d-flex justify-content-md-center">
                         <div class="d-flex flex-column">
-                            <a class="menu-header text-uppercase">design</a>
-                            <a class="menu-item text-capitalize">digital design</a>
-                            <a class="menu-item text-capitalize">branding</a>
-                            <a class="menu-item text-capitalize">marketing strategy</a>
+                            <a href="design.php" class="menu-header text-uppercase">design</a>
+                            <a class="menu-item pl-4 text-capitalize">digital design</a>
+                            <a class="menu-item pl-4 text-capitalize">branding</a>
+                            <a class="menu-item pl-4 text-capitalize">marketing strategy</a>
                         </div>
                     </div>
-                    <div class="col-3 d-flex justify-content-center">
+                    <div class="col-12 col-md-3 d-flex justify-content-md-center">
                         <div class="d-flex flex-column">
-                            <a class="menu-header text-uppercase">about us</a>
-                            <a class="menu-item text-capitalize">contact us</a>
+                            <a href="about.php" class="menu-header text-uppercase">about us</a>
+                            <a href="blog.php" class="menu-item pl-4 text-capitalize">blog</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div>
-            <div class="container border-top border-dark d-flex justify-content-center">
-                <a href="https://instagram.com/majucurated" class="mt-5 mx-5"><img src="img/social/instagram.png" class="img-fluid" /></a>
-                <a href="https://facebook.com/majucurated" class="mt-5 mx-5"><img src="img/social/facebook.png" class="img-fluid" /></a>
-                <a href="https://pinterest.com/majucurated" class="mt-5 mx-5"><img src="img/social/pinterest.png" class="img-fluid" /></a>
-                <a href="https://youtube.com/majucurated" class="mt-5 mx-5"><img src="img/social/youtube.png" class="img-fluid"></a>
+            <div class="container border-top border-dark d-flex justify-content-center py-4 py-md-0">
+                <a href="https://instagram.com/majucurated" class="mx-2 mt-md-5 mx-md-5"><img src="img/social/instagram.png" class="img-fluid" /></a>
+                <a href="https://facebook.com/majucurated" class="mx-2 mt-md-5 mx-md-5"><img src="img/social/facebook.png" class="img-fluid" /></a>
+                <a href="https://pinterest.com/majucurated" class="mx-2 mt-md-5 mx-md-5"><img src="img/social/pinterest.png" class="img-fluid" /></a>
+                <a href="https://youtube.com/majucurated" class="mx-2 mt-md-5 mx-md-5"><img src="img/social/youtube.png" class="img-fluid"></a>
             </div>
         </div>
     </div>

@@ -54,41 +54,41 @@
         <div>
             <div class="container">
                 <div class="row">
-                    <div class="col-3 d-flex justify-content-center">
+                    <div class="col-12 col-md-3 d-flex justify-content-md-center">
                         <div class="d-flex flex-column">
                             <a class="menu-header text-uppercase">home</a>
                         </div>
                     </div>
-                    <div class="col-3 d-flex justify-content-center">
+                    <div class="col-12 col-md-3 d-flex justify-content-md-center">
                         <div class="d-flex flex-column">
                             <a class="menu-header text-uppercase">production</a>
-                            <a class="menu-item text-capitalize">photography</a>
-                            <a class="menu-item text-capitalize">videography</a>
+                            <a class="menu-item pl-4 text-capitalize">photography</a>
+                            <a class="menu-item pl-4 text-capitalize">videography</a>
                         </div>
                     </div>
-                    <div class="col-3 d-flex justify-content-center">
+                    <div class="col-12 col-md-3 d-flex justify-content-md-center">
                         <div class="d-flex flex-column">
                             <a class="menu-header text-uppercase">design</a>
-                            <a class="menu-item text-capitalize">digital design</a>
-                            <a class="menu-item text-capitalize">branding</a>
-                            <a class="menu-item text-capitalize">marketing strategy</a>
+                            <a class="menu-item pl-4 text-capitalize">digital design</a>
+                            <a class="menu-item pl-4 text-capitalize">branding</a>
+                            <a class="menu-item pl-4 text-capitalize">marketing strategy</a>
                         </div>
                     </div>
-                    <div class="col-3 d-flex justify-content-center">
+                    <div class="col-12 col-md-3 d-flex justify-content-md-center">
                         <div class="d-flex flex-column">
                             <a class="menu-header text-uppercase">about us</a>
-                            <a class="menu-item text-capitalize">contact us</a>
+                            <a class="menu-item pl-4 text-capitalize">contact us</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div>
-            <div class="container border-top border-dark d-flex justify-content-center">
-                <a href="https://instagram.com/majucurated" class="mt-5 mx-5"><img src="img/social/instagram.png" class="img-fluid" /></a>
-                <a href="https://facebook.com/majucurated" class="mt-5 mx-5"><img src="img/social/facebook.png" class="img-fluid" /></a>
-                <a href="https://pinterest.com/majucurated" class="mt-5 mx-5"><img src="img/social/pinterest.png" class="img-fluid" /></a>
-                <a href="https://youtube.com/majucurated" class="mt-5 mx-5"><img src="img/social/youtube.png" class="img-fluid"></a>
+            <div class="container border-top border-dark d-flex justify-content-center py-4 py-md-0">
+                <a href="https://instagram.com/majucurated" class="mx-2 mt-md-5 mx-md-5"><img src="img/social/instagram.png" class="img-fluid" /></a>
+                <a href="https://facebook.com/majucurated" class="mx-2 mt-md-5 mx-md-5"><img src="img/social/facebook.png" class="img-fluid" /></a>
+                <a href="https://pinterest.com/majucurated" class="mx-2 mt-md-5 mx-md-5"><img src="img/social/pinterest.png" class="img-fluid" /></a>
+                <a href="https://youtube.com/majucurated" class="mx-2 mt-md-5 mx-md-5"><img src="img/social/youtube.png" class="img-fluid"></a>
             </div>
         </div>
     </div>

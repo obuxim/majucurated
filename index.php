@@ -149,38 +149,5 @@
         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <a class="btn action-button text-uppercase rounded-lg text-light px-5">send</a>
     </section>
-    <!--
-    <footer class="text-uppercase pt-5 pb-3">
-        <div class="container d-flex flex-column justify-content-between">
-            <div class="row">
-                <div class="col-12 col-md-6 order-1 order-md-0">
-                    <p>info@majucurated.com</p>
-                    <p>phone <a class="text-dark" href="tel:000000000">000 000 000</a></p>
-                    <p>follow us
-                        <a href="https://instagram.com/majucurated" target="_blank" class="text-dark mx-2">
-                            <img src="img/social/instagram.png" class="img-fluid" />
-                        </a>
-                        <a href="https://facbook.com/majucurated" target="_blank" class="text-dark mr-2">
-                            <img src="img/social/facebook.png" class="img-fluid" />
-                        </a>
-                        <a href="https://pinterest.com/majucurated" target="_blank" class="text-dark mr-2">
-                            <img src="img/social/pinterest.png" class="img-fluid" />
-                        </a>
-                        <a href="https://youtube.com/majucurated" target="_blank" class="text-dark">
-                            <img src="img/social/youtube.png" class="img-fluid" />
-                        </a>
-                    </p>
-                </div>
-                <div class="col-12 col-md-6 d-flex flex-column order-0 order-md-1 justify-content-center">
-                    <span class="ml-2 mb-3">subscribe newsletter</span>
-                    <form class="form-inline row" action="newsletter.php">
-                        <input type="email" class="form-control border-0 h-100 col-9" name="email" id="email" placeholder="   yourname@domain.extension">
-                        <button type="submit" class="btn action-button text-light col-3 py-3 text-uppercase">send</button>
-                    </form>
-                </div>
-            </div>
-            <span class="pt-4 text-center text-capitalize">copyright &copy; 2019 <span class="text-uppercase">maju curated inc</span>, all rights reserved.</span>
-        </div>
-    </footer>
-    -->
+
 <?php include("footer.php"); ?>
