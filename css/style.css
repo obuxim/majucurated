@@ -157,7 +157,18 @@ footer a img {
 	width: 7px; height: 7px; border-radius: 50%; background: white; border: 2px solid white; opacity: 1;
 }
 #photography-carousel .carousel-indicators .active { background: rgba(0,0,0,0) }
-.photography-carousel-footer { z-index: 999; bottom: 0; }
+.photography-carousel-footer { z-index: 9999; bottom: 0; }
 #photography-carousel .carousel-indicators { bottom: auto; }
+#photography-slider-menu { z-index: 999; }
+#photography-categories, #photography-galleries {
+	background: rgba(0,0,0,0.3);
+	margin-bottom: 2px;
+}
+#photography-categories:hover, #photography-galleries:hover{cursor: pointer}
+#photography-categories span::selection, #photography-galleries span::selection{background: transparent}
+#photography-galleries { margin-left: 2px; }
+#photography-categories + .photography-slider-menu-inner { margin-right: 2px; }
+#photography-galleries + .photography-slider-menu-inner { margin-left: 2px; }
+.photography-slider-menu-inner { background: rgba(0,0,0,0.3); }
 
 /*Photography Page Ends*/
