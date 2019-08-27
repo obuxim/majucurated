@@ -190,3 +190,21 @@ video { object-fit: cover; }
 .videography-carousel-overlay.active { z-index: 999; background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.66) 16.66%, rgba(0,0,0,0.33) 33.33%, rgba(0,0,0,0) 50%); }
 
 /*Videography Page Ends*/
+
+/*Design Page Starts*/
+
+.design-btn { background: #3CDBCD; }
+.shadow-text::before{
+	content: attr(shadow);
+	font-size: 4rem;
+	color: inherit;
+	opacity: 0.1;
+	position: absolute;
+	margin-top: -2rem;
+	margin-left: -3rem;
+}
+#design-mid-block {
+	background: #1E1E1E;
+}
+
+/*Design Page Ends*/

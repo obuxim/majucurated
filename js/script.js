@@ -59,7 +59,7 @@ const closeAllMenu = function(){
     $galleryMenuMobile.removeClass("d-flex").addClass("d-none");
 };
 
-$('#photography-galleries, #photography-categories, #photography-categories-menu, #photography-categories-mobile-menu, #photography-galleries-menu, #photography-galleries-mobile-menu').clickOutside(function(){
+$('#photography-galleries, #photography-categories').clickOutside(function(){
     closeAllMenu();
 });
 
