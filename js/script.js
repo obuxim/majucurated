@@ -68,3 +68,10 @@ $('.videography-carousel-overlay').on("click", function () {
     let $this = $(this);
     $this.addClass("active");
 });
+
+$(document).ready( e => {
+    $("#experience-text-block").height($("#experience-img").height())
+});
+$(window).on("resize",function () {
+    $("#experience-text-block").height($("#experience-img").height())
+})

@@ -208,3 +208,34 @@ video { object-fit: cover; }
 }
 
 /*Design Page Ends*/
+
+/*About Page Starts*/
+
+@media screen and (max-width: 768px){
+    .shadow-text-about { font-size: 1.5rem; }
+    .shadow-text-about::before {
+        content: attr(shadow);
+        font-size: 3rem;
+        color: inherit;
+        opacity: 0.1;
+        position: absolute;
+        margin-top: -1.5rem;
+        margin-left: -2px;
+    }
+}
+@media screen and (min-width: 769px){
+    .shadow-text-about::before {
+        content: attr(shadow);
+        font-size: 4rem;
+        color: inherit;
+        opacity: 0.1;
+        position: absolute;
+        margin-top: -2rem;
+        margin-left: -3rem;
+    }
+}
+.about-text-block { background: #f7f7f7; }
+.justify-self-end { justify-self: end; }
+.justify-self-start { justify-self: start; }
+
+/*About Page Ends*/
