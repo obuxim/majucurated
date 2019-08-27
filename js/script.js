@@ -63,3 +63,8 @@ $('#photography-galleries, #photography-categories, #photography-categories-menu
     closeAllMenu();
 });
 
+$('.videography-carousel-overlay').on("click", function () {
+    $('.videography-carousel-overlay').removeClass("active");
+    let $this = $(this);
+    $this.addClass("active");
+});

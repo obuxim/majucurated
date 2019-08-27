@@ -180,3 +180,13 @@ footer a img {
 
 
 /*Photography Page Ends*/
+
+/*Videography Page Starts*/
+
+video { object-fit: cover; }
+#videography-carousel video:focus { outline: 0px transparent; border: none; }
+.videography-carousel-overlay video { opacity: 0; }
+.videography-carousel-overlay { z-index: 999; background: rgba(0,0,0,0.5); }
+.videography-carousel-overlay.active { z-index: 999; background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.66) 16.66%, rgba(0,0,0,0.33) 33.33%, rgba(0,0,0,0) 50%); }
+
+/*Videography Page Ends*/

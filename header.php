@@ -56,19 +56,19 @@
                 <div class="row">
                     <div class="col-12 col-md-3 d-flex justify-content-md-center">
                         <div class="d-flex flex-column">
-                            <a class="menu-header text-uppercase">home</a>
+                            <a href="index.php" class="menu-header text-uppercase">home</a>
                         </div>
                     </div>
                     <div class="col-12 col-md-3 d-flex justify-content-md-center">
                         <div class="d-flex flex-column">
                             <a class="menu-header text-uppercase">production</a>
-                            <a class="menu-item pl-4 text-capitalize">photography</a>
-                            <a class="menu-item pl-4 text-capitalize">videography</a>
+                            <a href="photography.php" class="menu-item pl-4 text-capitalize">photography</a>
+                            <a href="videography.php" class="menu-item pl-4 text-capitalize">videography</a>
                         </div>
                     </div>
                     <div class="col-12 col-md-3 d-flex justify-content-md-center">
                         <div class="d-flex flex-column">
-                            <a class="menu-header text-uppercase">design</a>
+                            <a href="design.php" class="menu-header text-uppercase">design</a>
                             <a class="menu-item pl-4 text-capitalize">digital design</a>
                             <a class="menu-item pl-4 text-capitalize">branding</a>
                             <a class="menu-item pl-4 text-capitalize">marketing strategy</a>
@@ -76,8 +76,8 @@
                     </div>
                     <div class="col-12 col-md-3 d-flex justify-content-md-center">
                         <div class="d-flex flex-column">
-                            <a class="menu-header text-uppercase">about us</a>
-                            <a class="menu-item pl-4 text-capitalize">contact us</a>
+                            <a href="about.php" class="menu-header text-uppercase">about us</a>
+                            <a href="blog.php" class="menu-item pl-4 text-capitalize">blog</a>
                         </div>
                     </div>
                 </div>
