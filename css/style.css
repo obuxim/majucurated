@@ -239,3 +239,13 @@ video { object-fit: cover; }
 .justify-self-start { justify-self: start; }
 
 /*About Page Ends*/
+
+/*Blog Page Starts*/
+
+#blog { background: url("../img/blog/pattern.jpg"); background-repeat: repeat; }
+#blog-filter-container { background: #FAFAFA; }
+#blog-filter-dropdown::after { content: none }
+#blog-filter-dropdown:focus { outline: none; box-shadow: none }
+.post-image { margin: 2rem 0;}
+
+/*Blog Page Ends*/

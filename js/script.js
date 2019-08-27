@@ -73,5 +73,18 @@ $(document).ready( e => {
     $("#experience-text-block").height($("#experience-img").height())
 });
 $(window).on("resize",function () {
-    $("#experience-text-block").height($("#experience-img").height())
-})
+    $("#experience-text-block").height($("#experience-img").height());
+});
+
+$("#scroll-down").on("click", function () {
+    var target = $("#blog-post-content");
+    var targetOffset = $(target).offset().top + ($(target).height() / 2);
+    console.log(targetOffset);
+    $('html,body').animate(
+        {
+            scrollTop: targetOffset
+        },200,function()
+        {
+            location.hash = target;
+        });
+});

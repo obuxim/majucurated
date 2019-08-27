@@ -31,7 +31,7 @@
 	</footer>
 
     <!-- Including Bootstrap Scripts -->
-    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap/bootstrap.min.js"></script>
     <!-- Including Custom JS -->
