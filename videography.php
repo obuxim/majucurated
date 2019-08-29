@@ -33,6 +33,16 @@
             </div>
         </div>
         <div class="col-12 col-md-3 flex-column h-100 overflow-auto">
+            <div class="dropdown">
+                <button class="p-3 text-light btn-videography w-100 dropdown-toggle text-uppercase" type="button" id="videoDropDown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    All Videos
+                </button>
+                <div class="dropdown-menu w-100" aria-labelledby="videoDropDown">
+                    <a class="dropdown-item" href="#">Category 1</a>
+                    <a class="dropdown-item" href="#">Category 2</a>
+                    <a class="dropdown-item" href="#">Category 3</a>
+                </div>
+            </div>
             <div class="w-100">
                 <div class="videography-carousel-overlay position-absolute"  data-target="#videography-carousel" data-slide-to="0">
                     <video src="videos/video01.mp4" class="embed-responsive"></video>
