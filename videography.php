@@ -74,6 +74,16 @@
 <section id="videography-slider-mobile" class="d-block d-md-none">
     <div class="row no-gutters">
         <div class="col-12">
+            <div class="dropdown">
+                <button class="p-3 text-light btn-videography w-100 dropdown-toggle text-uppercase" type="button" id="videoDropDown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    All Videos
+                </button>
+                <div class="dropdown-menu w-100" aria-labelledby="videoDropDown">
+                    <a class="dropdown-item" href="#">Category 1</a>
+                    <a class="dropdown-item" href="#">Category 2</a>
+                    <a class="dropdown-item" href="#">Category 3</a>
+                </div>
+            </div>
             <div id="videography-carousel-mobile" class="carousel slide w-100 h-100" data-ride="carousel">
                 <div class="carousel-inner w-100 h-100">
                     <div class="carousel-item w-100 h-100 active" data-interval="60000">
