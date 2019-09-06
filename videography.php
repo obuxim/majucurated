@@ -153,7 +153,7 @@
     </a>
 </section>
 
-<section id="photography-reversed" class="py-5">
+<section id="photography-reversed" class="py-5 services">
     <div class="container">
         <div class="row py-3 align-items-center">
             <div class="col-12 col-md-6">

@@ -90,7 +90,7 @@
             </div>
         </div>
     </div>
-    <header class="d-flex d-md-none align-items-center justify-content-between container sticky-top bg-white pl-2 pr-3 text-dark text-uppercase">
+    <header class="d-flex d-md-none align-items-center justify-content-between container sticky-top bg-white px-4 text-dark text-uppercase">
         <a href="index.php" class="navbar-brand"><img src="img/logo-dark.png" alt="Maju Curated" /></a>
         <a onclick=toggleNav() id="navToggle"><img src="img/menu-dark.png" alt="Menu" /></a>
     </header>

@@ -29,7 +29,7 @@
 </head>
 <body>
     <header class="card bg-white pl-2 pr-3 text-dark text-uppercase px-18">
-        <div class="container-fluid d-flex align-items-center justify-content-around">
+        <div class="container-fluid d-flex align-items-center justify-content-between justify-content-md-around">
             <a href="index.php" class="navbar-brand"><img src="img/logo-dark.png" alt="Maju Curated" /></a>
             <ul class="nav d-none d-md-flex">
                 <li class="nav-item"><a class="nav-link text-dark" href="index.php">home</a></li>

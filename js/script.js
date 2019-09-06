@@ -14,6 +14,15 @@ const toggleNav = function(){
     }
 };
 
+// jQuery.fn.clickOutside = function(callback){
+//     var $me = this;
+//     $(document).mouseup(function(e) {
+//         if ( !$me.is(e.target) && $me.has(e.target).length === 0 ) {
+//             callback.apply($me);
+//         }
+//     });
+// };
+
 jQuery.fn.clickOutside = function(callback){
     var $me = this;
     $(document).mouseup(function(e) {
@@ -87,4 +96,20 @@ $("#scroll-down").on("click", function () {
         {
             location.hash = target;
         });
+});
+
+//Scrolls down to services while clicking the Call to Action Button
+$(document).ready(function (){
+    $("#call-to-action").click(function (){
+        $('html, body').animate({
+            scrollTop: $(".services").offset().top
+        }, 500);
+    });
+    $("#photography-categories-menu li a").click(function () {
+        closeAllMenu()
+        toggleGallery()
+    });
+    $("#photography-galleries-menu li a").click(function () {
+        closeAllMenu()
+    })
 });

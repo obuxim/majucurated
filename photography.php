@@ -96,12 +96,12 @@
         <div class="col-12 overflow-hidden justify-content-center align-content-center">
             <div id="photography-slider-menu" class="row no-gutters h-100 w-100 position-absolute text-light text-uppercase">
                 <div class="col-12">
-                    <a id="photography-categories" class="d-flex justify-content-center align-items-center p-1" onclick="toggleCategory()">
+                    <a id="photography-categories" class="d-flex justify-content-center align-items-center py-2" onclick="toggleCategory()">
                         <span class="pr-2">all categories</span>
                         <i class="pl-2 fas fa-caret-down"></i>
                     </a>
 
-                    <a id="photography-galleries" class="d-flex justify-content-center align-items-center p-1" onclick="toggleGallery()">
+                    <a id="photography-galleries" class="d-flex justify-content-center align-items-center py-2" onclick="toggleGallery()">
                         <span class="pr-2">galleries</span>
                         <i class="pl-2 fas fa-caret-down"></i>
                     </a>
@@ -172,7 +172,7 @@
         <i class="fas fa-chevron-down"></i>
     </a>
 </section>
-<section id="photography-reversed" class="py-5">
+<section id="photography-reversed" class="py-5 services">
     <div class="container">
         <div class="row py-3 align-items-center">
             <div class="col-12 col-md-6">
