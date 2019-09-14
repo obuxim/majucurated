@@ -14,14 +14,6 @@ const toggleNav = function(){
     }
 };
 
-// jQuery.fn.clickOutside = function(callback){
-//     var $me = this;
-//     $(document).mouseup(function(e) {
-//         if ( !$me.is(e.target) && $me.has(e.target).length === 0 ) {
-//             callback.apply($me);
-//         }
-//     });
-// };
 
 jQuery.fn.clickOutside = function(callback){
     var $me = this;
@@ -112,8 +104,37 @@ $(document).ready(function (){
     $("#photography-galleries-menu li a").click(function () {
         closeAllMenu()
     });
-    $('#photography-carousel').on('slide.bs.carousel', function () {
-        console.log("Sliding...")
+    var sliders = parseInt($("#photography-slider.d-none .photography-slider-overlay").length)
+    var i = 0
+    $('#photography-carousel, #photography-carousel-mobile').on('slide.bs.carousel', function () {
+        i = i + 1
+        if (i < sliders) {
+            $('.photography-slider-overlay').removeClass("active")
+            $('.photography-slider-overlay:eq('+i+')').addClass("active")
+            $('.photography-slider-overlay:eq('+(i+sliders)+')').addClass("active")
+        } else {
+            i = 0
+            $('.photography-slider-overlay').removeClass("active")
+            $('.photography-slider-overlay:eq('+i+')').addClass("active")
+            $('.photography-slider-overlay:eq('+(i+sliders)+')').addClass("active")
+        }
+    });
+
+    var videoSliders = parseInt($("#videography-slider.d-none .videography-carousel-overlay").length)
+    console.log(videoSliders)
+    var j = 0
+    $('#videography-carousel, #videography-carousel-mobile').on('slide.bs.carousel', function () {
+        j = j + 1
+        if (j < videoSliders) {
+            $('.videography-carousel-overlay').removeClass("active")
+            $('.videography-carousel-overlay:eq('+j+')').addClass("active")
+            $('.videography-carousel-overlay:eq('+(j+videoSliders)+')').addClass("active")
+        } else {
+            j = 0
+            $('.videography-carousel-overlay').removeClass("active")
+            $('.videography-carousel-overlay:eq('+j+')').addClass("active")
+            $('.videography-carousel-overlay:eq('+(j+videoSliders)+')').addClass("active")
+        }
     });
 });
 

@@ -4,13 +4,13 @@
         <div class="row no-gutters h-100">
             <div class="col-3 flex-column h-100 overflow-auto">
                 <div>
-                    <div class="photography-slider-overlay position-absolute" data-target="#photography-carousel" data-slide-to="0">
+                    <div class="photography-slider-overlay active position-absolute" data-target="#photography-carousel" data-slide-to="0">
                         <img src="img/photography/1.png" class="photography-slider-overlay-inner img-fluid" alt=""/>
                     </div>
                     <img src="img/photography/1.png" class="img-fluid" alt="" />
                 </div>
                 <div>
-                    <div class="photography-slider-overlay active position-absolute" data-target="#photography-carousel" data-slide-to="1">
+                    <div class="photography-slider-overlay position-absolute" data-target="#photography-carousel" data-slide-to="1">
                         <img src="img/photography/2.png" class="photography-slider-overlay-inner img-fluid" alt="" />
                     </div>
                     <img src="img/photography/2.png" class="img-fluid" alt=""/>
@@ -148,11 +148,11 @@
         </div>
         <div class="col-12 d-flex overflow-auto no-gutters">
             <div class="col-4">
-                <div class="photography-slider-overlay position-absolute w-100 h-100" data-target="#photography-carousel-mobile" data-slide-to="0"></div>
+                <div class="photography-slider-overlay active position-absolute w-100 h-100" data-target="#photography-carousel-mobile" data-slide-to="0"></div>
                 <img src="img/photography/1.png" class="img-fluid" alt=""/>
             </div>
             <div class="col-4">
-                <div class="photography-slider-overlay-active position-absolute w-100 h-100" data-target="#photography-carousel-mobile" data-slide-to="1"></div>
+                <div class="photography-slider-overlay position-absolute w-100 h-100" data-target="#photography-carousel-mobile" data-slide-to="1"></div>
                 <img src="img/photography/2.png" class="img-fluid" alt="" />
             </div>
             <div class="col-4">

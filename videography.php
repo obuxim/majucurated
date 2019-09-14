@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="w-100">
-                <div class="videography-carousel-overlay position-absolute"  data-target="#videography-carousel" data-slide-to="0">
+                <div class="videography-carousel-overlay active position-absolute"  data-target="#videography-carousel" data-slide-to="0">
                     <video src="videos/video01.mp4" class="embed-responsive"></video>
                 </div>
                 <video src="videos/video01.mp4" class="embed-responsive"></video>
@@ -115,7 +115,7 @@
         </div>
         <div class="col-12 d-flex flex-row overflow-auto no-gutters">
             <div class="col-4">
-                <div class="position-absolute w-100 h-100 videography-carousel-overlay" data-target="#videography-carousel-mobile" data-slide-to="0"></div>
+                <div class="position-absolute w-100 h-100 videography-carousel-overlay active" data-target="#videography-carousel-mobile" data-slide-to="0"></div>
                 <video class="w-100 h-100">
                     <source src="videos/video01.mp4" type="video/mp4">
                     Your browser does not support HTML5 video.
