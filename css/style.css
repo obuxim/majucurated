@@ -151,7 +151,7 @@ footer a img {
 
 .photography-slider-overlay { background: rgba(0,0,0,0.6); }
 .photography-slider-overlay-inner { opacity: 0.0; }
-.photography-slider-overlay-active {
+.photography-slider-overlay.active {
 	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.66) 16.66%, rgba(0,0,0,0.33) 33.33%, rgba(0,0,0,0) 50%);
 }
 .carousel-overlay {

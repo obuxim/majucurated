@@ -10,7 +10,7 @@
                     <img src="img/photography/1.png" class="img-fluid" alt="" />
                 </div>
                 <div>
-                    <div class="photography-slider-overlay-active position-absolute" data-target="#photography-carousel" data-slide-to="1">
+                    <div class="photography-slider-overlay active position-absolute" data-target="#photography-carousel" data-slide-to="1">
                         <img src="img/photography/2.png" class="photography-slider-overlay-inner img-fluid" alt="" />
                     </div>
                     <img src="img/photography/2.png" class="img-fluid" alt=""/>

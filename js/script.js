@@ -111,5 +111,15 @@ $(document).ready(function (){
     });
     $("#photography-galleries-menu li a").click(function () {
         closeAllMenu()
-    })
+    });
+    $('#photography-carousel').on('slide.bs.carousel', function () {
+        console.log("Sliding...")
+    });
+});
+
+//Phtography Slider Active Toggler
+$('.photography-slider-overlay').on("click", function () {
+    $('.photography-slider-overlay').removeClass("active");
+    let $this = $(this);
+    $this.addClass("active");
 });
